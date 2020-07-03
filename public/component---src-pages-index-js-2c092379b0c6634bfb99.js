@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{RXBc:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),r=t.n(a),c=t("Bl7J"),l=t("vrFN");n.default=function(){return r.a.createElement(c.a,null,r.a.createElement(l.a,{title:"Home"}),r.a.createElement("h1",null,"IxDA Tracker 2.0"))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-2c092379b0c6634bfb99.js.map
