@@ -18,8 +18,8 @@ const IndexPage = () => (
     }}>
       <section style={{
         display: 'inline-grid',
-        gridTemplateColumns: '500px 2fr',
-        gridTemplateRows: '40vh',
+        gridTemplateColumns: '700px 2fr',
+        gridTemplateRows: '45vh',
         gridRowGap: '10px',
         gridGap: '20px'
       }}>

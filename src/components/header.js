@@ -61,7 +61,8 @@ const Header = ({ siteTitle, siteLocation, labels }) => (
     padding: '0.45rem',
     display: 'flex',
     justifyContent: 'space-between',
-    alignItems: 'center'
+    alignItems: 'center',
+    marginBottom: '2rem'
   }}>
     <section style={{
       display: 'flex',
