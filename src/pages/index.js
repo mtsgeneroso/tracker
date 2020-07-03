@@ -1,23 +1,29 @@
 import React from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "@components/layout"
+import SEO from "@components/seo"
+
+import {
+  MiniMap
+} from '@components/Home'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div style={{
       padding: 10,
-      display: 'flex',
-      flexDirection: 'column'
+      display: 'grid',
+      gridTemplateColumns: '100%',
+      gridGap: '20px',
+      gridRowGap: '20px'
     }}>
       <section style={{
         display: 'inline-grid',
         gridTemplateColumns: '500px 2fr',
         gridTemplateRows: '40vh',
         gridRowGap: '10px',
-        gridGap: '10px'
+        gridGap: '20px'
       }}>
-        <div>Mapa</div>
+        <MiniMap />
         <div>Find Chapter</div>
       </section> 
       <section style={{
