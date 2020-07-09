@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `TRACKER`,
     location: `LATAM`,
-    description: `IxDA trcker 2.0`,
+    description: `IxDA tracker 2.0`,
     author: `@ixda`,
 
     labelVisitWebsite: 'Visit IxDA website',
